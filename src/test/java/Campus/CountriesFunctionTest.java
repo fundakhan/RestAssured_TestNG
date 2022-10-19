@@ -109,7 +109,7 @@ public class CountriesFunctionTest {
                 .delete("/school-service/api/countries/" + country_id)
                 .then()
                 .log().body()
-                .statusCode(208);
+                .statusCode(200);
 
     }
 

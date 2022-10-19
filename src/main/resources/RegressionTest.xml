@@ -1,0 +1,9 @@
+<suite name="Regression Test Suite">
+
+    <test name="Regression Test">
+
+        <classes>
+
+        </classes>
+    </test>
+</suite>

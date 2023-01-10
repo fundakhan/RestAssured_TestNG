@@ -60,8 +60,8 @@ public class DiscountFunctionTest {
     @Test(dependsOnMethods = "loginTest")
     public void loginNegativeTest(){
         HashMap<String, String> credentials = new HashMap<>();
-        credentials.put("username", "richfield");
-        credentials.put("password","Richfield2020!");
+        credentials.put("username", "turkeyts");
+        credentials.put("password","TechnoStudy123");
         credentials.put("rememberMe", "true");
 
          given()

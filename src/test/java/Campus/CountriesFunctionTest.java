@@ -37,8 +37,8 @@ public class CountriesFunctionTest {
     public void loginTest(){
 
         HashMap<String, String> credentials = new HashMap<>();
-        credentials.put("username", "richfield.edu");
-        credentials.put("password","Richfield2020!");
+        credentials.put("username", "turkeyts");
+        credentials.put("password","TechnoStudy123");
         credentials.put("rememberMe", "true");
 
        cookies = given()

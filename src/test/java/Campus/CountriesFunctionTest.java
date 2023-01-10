@@ -25,7 +25,7 @@ public class CountriesFunctionTest {
     @BeforeClass
     public void setup(){
 
-        RestAssured.baseURI = "https://demo.mersys.io";
+        RestAssured.baseURI = "https://test.mersys.io";
 
         reqSpec = given()
                 .log().body()
